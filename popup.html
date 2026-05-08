@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <title>Ustawienia Podświetlenia</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 15px;
+      min-width: 200px;
+      text-align: center;
+    }
+    button {
+      background-color: #f44336;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+    button.off {
+      background-color: #4CAF50;
+    }
+    p {
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <p>Status podświetlenia przesunięć układu:</p>
+  <button id="toggleHighlight">Ładowanie...</button>
+  <script src="popup.js"></script>
+</body>
+</html>
